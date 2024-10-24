@@ -1,0 +1,63 @@
+body{
+    background-image: url(/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.appl{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+.btn{
+    padding: 15px 35px;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: rgb(238, 193, 102);
+    transition: background 0.5s;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    background-color: aliceblue;
+}
+.title{
+position: fixed;
+background-color: aliceblue;
+max-width: 600px;
+width: 100%;
+padding: 10px 30px;
+border-radius: 20px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+}
+.clos{
+    background-color: red;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hed{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.overly{
+    background: rgb(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    
+}
+
+.hedden{
+    display: none;
+}
